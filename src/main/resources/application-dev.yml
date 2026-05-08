@@ -1,7 +1,8 @@
 spring:
   redis:
-    host: localhost
-    port: 6379
+    host: redis-16237.crce217.ap-south-1-1.ec2.cloud.redislabs.com
+    port: 16237
+    password: BGBauHNh5OKuSKye4F1mDg4gchy7XZ6i
   data:
     mongodb:
       uri: mongodb+srv://DataBase Url and password
