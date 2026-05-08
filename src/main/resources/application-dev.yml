@@ -4,14 +4,14 @@ spring:
     port: 6379
   data:
     mongodb:
-      uri: mongodb+srv://ashishvishwakarma7558_db_user:Ashish%402002@cluster0.gfwll7u.mongodb.net/journaldb?retryWrites=true&w=majority
+      uri: mongodb+srv://DataBase Url and password
       database: journaldb
       auto-index-creation: true
   mail:
     host: smtp.gmail.com
     port: 587
-    username: ashishvishwakarma7558@gmail.com
-    password: vjus jqpm fonz thtx
+    username: your email account
+    password: *******
     properties:
       mail:
         smtp:
@@ -27,4 +27,4 @@ server:
 
 weather:
   api:
-    key: 610438b429762327c434a174cdcb9b64
+    key: Add your API Key
